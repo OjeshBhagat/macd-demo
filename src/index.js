@@ -1,6 +1,6 @@
 const data = require('../data/aapl.js');
 console.log(1)
-import * as technicalindicators from 'technicalindicators';
+const technicalindicators = require('technicalindicators');
 console.log(2)
 const MACD = technicalindicators.MACD;
 
